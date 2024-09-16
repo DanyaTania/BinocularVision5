@@ -1,4 +1,4 @@
-package com.gourianova.binocularviusion;
+package com.gourianova.binocularvision;
 
 
 import javax.servlet.ServletException;

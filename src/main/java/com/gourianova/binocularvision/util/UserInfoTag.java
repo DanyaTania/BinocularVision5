@@ -1,7 +1,7 @@
-package com.gourianova.binocularviusion.util;
+package com.gourianova.binocularvision.util;
 
 
-import com.gourianova.binocularviusion.model.User;
+import com.gourianova.binocularvision.model.User;
 
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.tagext.TagSupport;
@@ -18,7 +18,7 @@ public class UserInfoTag extends TagSupport {
     @Override
     public int doStartTag() throws JspException {
         try {
-            pageContext.getOut().write( " " + user.getFirstName() + ", " + user.getBalance() + " BYR");;
+            pageContext.getOut().write( " " + user.getFirst_name() + ", " + user.getBalance() + " BYR");;
         } catch (IOException e) {
             e.printStackTrace();
         }

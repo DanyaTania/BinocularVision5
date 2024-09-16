@@ -1,4 +1,4 @@
-package com.gourianova.binocularviusion.util;
+package com.gourianova.binocularvision.util;
 
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.tagext.TagSupport;
